@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ML - IBM CLOUD</title>
+    <style>
+        body, main ul {
+            -webkit-box-direction: normal
+        }
+
+        body {
+            background-color: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding: 0 20px
+        }
+
+        h1, h2 {
+            color: #464646;
+            text-align: center
+        }
+
+        h1 {
+            margin: 10px 0
+        }
+
+        main ul, main ul li {
+            -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+            align-items: baseline
+        }
+
+        main ul {
+            -webkit-box-orient: horizontal;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            list-style: none;
+            padding-left: 10%
+        }
+
+        @media screen and (min-width: 900px) {
+            main ul {
+                width: 700px;
+                margin: auto
+            }
+        }
+
+        main ul li {
+            -ms-flex-preferred-size: 90%;
+            flex-basis: 90%;
+            padding: 5px;
+            flex-grow: 1;
+            -webkit-box-flex: 1;
+            -ms-flex-positive: 1
+        }
+
+        @media screen and (min-width: 600px) {
+            main ul li {
+                -ms-flex-preferred-size: 45%;
+                flex-basis: 45%
+            }
+        }
+
+        main ul li a {
+            text-decoration: underline;
+            font-size: 1em
+        }
+
+        @media screen and (max-width: 400px) {
+            h1 {
+                padding-top: 50px
+            }
+        }
+
+        #error-container a, main ul li a {
+            color: #6e98df
+        }
+
+        #error-container h1 {
+            color: #000;
+            font-size: 4em
+        }
+
+        #error-container h2 {
+            color: #000
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>ML - IBM CLOUD</h1>
+
+    <h2>App Magneto (X-MEN) validate DNA Mutants <br>running a Spring server built for the IBM Cloud.</h2>
+    <p>The following endpoints are available:</p>
+    <ul>
+        <li>
+            <div>
+                <a target="_blank" rel="noopener" href="/health">Health : xxxxxx:xxxx/health</a>
+            </div>
+        </li>
+        <li>
+            <div>
+                <a target="_blank" rel="noopener" href="/v1/mutant">Mutant : xxxxxx:xxxx/mutant</a>
+            </div>
+        </li>
+        <li>
+            <div>
+                <a target="_blank" rel="noopener" href="/v1/stats">Stats : xxxxxx:xxxx/stats</a>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
